@@ -1,0 +1,508 @@
+
+/**************** class page ********************/
+
+.background{
+    background-color: #69a0b3;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 12.5%;
+    top: 0;
+    left: 0;
+}
+
+.margLeftRow{
+    margin-left: 12.5% !important;
+}
+
+.overflow{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.greyColor{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #f0f1f2;
+}
+
+.navLink2{
+    display: block;
+    height: auto;
+    background-color: #69a0b3;
+    color: #ffffff;
+    width:80%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 8%;
+    margin-left: 10%;
+    font-size: 120%;
+    transition: background 0.2s ease-in;
+    border: 0;
+    text-align: left;
+    
+}
+
+.navLink2:hover{
+    background:#5a8b9c;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topSet{
+    margin-top: 20%;
+}
+
+.backBar{
+    background-color: #69a0b3;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.backBar h1{
+    color: #ffffff;
+    font-size: 150%;
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+.formStyle{
+    margin-left: 10%;
+}
+
+.formField{
+    width: 70% !important;
+}
+
+.formField2{
+    width: 30% !important;
+}
+
+.formMargin{
+    margin-left: 22%;
+}
+
+.Border{
+    border: 1px solid #c7c7c7;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.formButton{
+    background-color: #69a0b3 !important;
+    font-weight: bold !important;
+}
+
+.formButton:hover{
+    background-color: #69a0b3;
+}
+
+.respNav{
+    display: none !important;
+}
+
+.authtextF1{
+    color: #c70404;
+    
+}
+
+.authtextF2{
+    color: #c70404;
+    
+}
+
+.tableMargin{
+    margin-left: 10%;
+}
+
+.tableWidth{
+    width: 89% !important;
+}
+
+.tableHeading{
+    background-color: #69a0b3;
+    color: #ffffff;
+}
+
+.sectionButton{
+    display: block;
+    background-color: #69a0b3;
+    color: #ffffff;
+    height: 30%;
+    width: 50%;
+    padding-left: 15%;
+    border-radius: 3px;
+}
+
+.sectionButton:hover{
+    text-decoration: none;
+    background-color: #69a0b3;
+    color: #ffffff;
+}
+
+.addSecButton{
+    display: block;
+    background-color: #69a0b3;
+    height: 35%;
+    width: 12%;
+    color: #ffffff;
+    margin-left: 10%;
+    padding-left: 2.5%;
+    padding-top: 0.7%;
+    font-weight: bold;
+}
+
+.addSecButton:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.timetableButton{
+    display: block;
+    background-color: #69a0b3;
+    height: 7%;
+    width: 12%;
+    color: #ffffff;
+    margin-left: 10%;
+    padding-left: 1.5%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-weight: bold;
+}
+
+.timetableButton:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.classTitle{
+    display: block;
+    background-color: #69a0b3;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5%;
+
+}
+
+.Edel{
+    font-size: 15px;
+    color: #000000;
+}
+
+.Edel3{
+    font-size: 15px;
+    color: red;
+}
+
+.Edel2{
+    font-size: 15px;
+    border: 1px solid #ffffff !important;
+}
+
+.attendancelink{
+    display: block;
+    background-color: #69a0b3;
+    color: #ffffff;
+    height: 30px !important;
+    width: 80% !important;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.7%;
+}
+
+.attendancelink:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Colorhead{
+    color: #69a0b3;
+    font-size: 150%;
+    text-align: center;
+}
+
+.credStyle{
+    color: #69a0b3;
+    font-size: 150%;
+    margin-left: 10%;
+}
+
+.whiteDiv{
+    background-color: #ffffff;
+    height: auto;
+    width: 105%;
+    box-shadow: 3px 6px 10px #e3e3e3;
+}
+
+.whiteDiv:last-child{
+    background-color: #ffffff;
+    height: auto;
+    width: 102%;
+
+}
+
+.whiteDiv h5{
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+.whiteDiv p{
+    font-weight: bold;
+    font-size: 150%;
+    color: #1663c7;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+/**************** class page ********************/
+
+@media (max-width: 320px){
+
+    .respNav{
+        display: block !important;
+        background-color: #69a0b3;
+        background-color: #ffffff !important;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .NavLink{
+        color: #ffffff !important;
+        text-align: center;
+    }
+
+    .NavLink:hover{
+        background:#5a8b9c;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .formMargin{
+        margin-left: 12%;
+    }
+
+    .backBar{
+        background-color: #69a0b3;
+        height: auto;
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .formStyle{
+        margin-left: 5%;
+    }
+
+    .Border{
+        border: 1px solid #c7c7c7;
+        width: 80%;
+        margin-left: 0.5%;
+    }
+
+    .formField{
+        width: 85% !important;
+    }
+
+    .tableMargin{
+        margin-left: 1%;
+    }
+    
+    .tableWidth{
+        width: 89%;
+    }
+
+    .addSecButton{
+        display: block;
+        background-color: #69a0b3;
+        height: 30%;
+        width: 32%;
+        color: #ffffff;
+        margin-left: 1.5%;
+        padding-left: 3.5%;
+        padding-top: 1.3%;
+        font-size: 80%;
+    }
+
+    .sectionButton{
+        display: block;
+        background-color: #69a0b3;
+        color: #ffffff;
+        height: 30%;
+        width: 100%;
+        padding-left: 15%;
+        border-radius: 3px;
+        font-size: 80%;
+    }
+
+    .classTitle{
+        display: block;
+        background-color: #69a0b3;
+        width: 30%;
+        height: 7%;
+        text-align: center;
+        color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 120%;
+        padding-top: 1.5%;
+    }
+}
+
+.timetableEven{
+    border: 1px solid #000000 !important;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #356eb8;
+    text-align: center;
+}
+
+.timetableOdd{
+    border: 1px solid #000000 !important;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2ba66d;
+    text-align: center;
+}
+
+.timetableNolec{
+    border: 1px solid #000000;
+    color: #e32222;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media (min-width: 321px) and (max-width: 575.98px){
+    .respNav{
+        display: block !important;
+        background-color: #69a0b3;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .NavLink{
+        color: #ffffff !important;
+        text-align: center;
+    }
+
+    .NavLink:hover{
+        background:#5a8b9c;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .formMargin{
+        margin-left: 12%;
+    }
+
+    .backBar{
+        background-color: #69a0b3;
+        height: auto;
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .formStyle{
+        margin-left: 5%;
+    }
+
+    .Border{
+        border: 1px solid #c7c7c7;
+        width: 80%;
+        margin-left: 0.5%;
+    }
+
+    .formField{
+        width: 85% !important;
+    }
+
+    .tableMargin{
+        margin-left: 1%;
+    }
+    
+    .tableWidth{
+        width: 89%;
+    }
+
+    .addSecButton{
+        display: block;
+        background-color: #69a0b3;
+        height: 30%;
+        width: 32%;
+        color: #ffffff;
+        margin-left: 0.7%;
+        padding-left: 5%;
+        padding-top: 1.3%;
+        font-size: 85%;
+    }
+
+    .sectionButton{
+        display: block;
+        background-color: #69a0b3;
+        color: #ffffff;
+        height: 30%;
+        width: 100%;
+        padding-left: 15%;
+        border-radius: 3px;
+        font-size: 80%;
+    }
+
+    .classTitle{
+        display: block;
+        background-color: #69a0b3;
+        width: 30%;
+        height: 7%;
+        text-align: center;
+        color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1.5%;
+        font-size: 120%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
+
+
+@media (max-width: 767.98px){
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+
+    
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+
+@media (max-width: 767px){
+
+}
+
+
+@media (min-width: 767px){
+
+}
